@@ -1,0 +1,160 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans Anatolian Hieroglyphs', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+} 
+header{
+    background: #006832;
+    padding: 20px 0;
+    border-bottom:5px solid rgb(50, 42, 165);
+}
+.con{
+    width: 1200px;
+    margin: auto;
+}
+.topnav li
+{
+display: inline;
+
+}
+.topnav li a
+{
+color: yellow;
+padding: 10px;
+
+}
+.topnav  li a:hover{
+    background: #68001a;
+}
+nav ul{
+    padding-top: 65px;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    color: #fff;
+    padding: 15px 15px;
+}
+nav ul li a:hover{
+    background: #68001a;
+}
+.banner{
+    boader-top: 5px solid yellow;
+}
+.w-100
+{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 27px;
+}
+.s-box{
+    background:#fff;
+    box-shadow: 0px 0px 12px 4px #ccc;
+    padding: 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+.s-box h4{
+    padding-top: 10px;
+}
+.btn{
+    background: rgb(128, 0, 0);
+    color: #fff;
+    text-align: left;
+    padding:  5px 15px;
+    margin: 40px 0;
+    display: inline-block;
+
+}
+.p-box {
+    background:#fff;
+    box-shadow: 0px 0px 12px 4px #ccc;
+    padding: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.p-box h6 {
+    padding-top: 20px ;
+}
+.ptn{
+    background: rgb(47, 0, 128);
+    color: #fff;
+    text-align: left;
+    padding:  5px 15px;
+    margin: 40px 0;
+    display: inline-block;
+
+}
+.Product{
+    background: #006832;
+    padding:  10px 20px;
+    margin: 5px 60px;
+    
+}
+footer{
+    background: #006832;
+    color: #ccc;
+    padding: 40px 0;
+}
+.fbox{
+    width: 60%;
+
+}
+footer li, .footerbottom{
+    line-height: 35px;
+    color: #ccc;
+    
+}
+footer ul{
+    padding-top: 25px;
+}
+.footerbottom{
+    background:#07fa5c;
+}
+.footerbottom .fbox1 {
+    width: 25%;
+}
+.copyright{
+    color: #68001a;
+    background: #006832;
+    text-align: center;
+    padding: 5px;
+}
+.social{
+    width: 70px;
+    height: 140px;
+   position:fixed;
+    top: 50%;
+    right: 0;
+}
+.social img{
+    width: 30px;
+}
+.innerpage{
+    padding: 50px 0;
+}
